@@ -42,7 +42,7 @@
 ### 2.3 Multiple Task Removal
 - **Scenario**: Remove multiple tasks from the to-do list
 - **Expected**: All specified tasks are successfully removed
-- **Verification**: List no longer contains any of the removed tasks
+- **Verification**: List no longer contains any of the removed tasks and maintains the order of remaining tasks
 
 ### 2.4 Empty List Task Removal
 - **Scenario**: Attempt to remove a task from an empty list
@@ -94,6 +94,9 @@
 - **Scenario**: Showcase error handling for invalid operations
 - **Expected**: Script demonstrates how the application handles errors
 - **Verification**: Output clearly shows appropriate error messages for invalid operations
+  - Empty task addition
+  - Duplicate task addition
+  - Non-existent task removal
 
 ### 5.4 Complete Functionality Coverage
 - **Scenario**: Verify that the script covers all core functionality
