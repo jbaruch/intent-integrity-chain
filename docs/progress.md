@@ -8,7 +8,7 @@
 - Initial commit made
 - Phase tag created: `phase-0-init`
 
-### Phase 1: Analysis (Current Phase)
+### Phase 1: Analysis ✓
 - Documentation structure created
 - Product context defined
 - System architecture designed
@@ -16,12 +16,12 @@
 - Technical assumptions documented
 - Requirements specified
 - Test scenarios outlined
-- Awaiting approval to proceed to Specification Phase
+- Phase tag created: `phase-1-analysis`
 
-### Phase 2: Specification (Pending)
-- Test specifications to be written
-- Interfaces to be defined
-- Design to be documented
+### Phase 2: Specification (Current Phase)
+- Test specifications written in Gherkin format
+- Interface contracts defined
+- Awaiting approval to proceed to Implementation Phase
 
 ### Phase 3: Implementation (Pending)
 - Tests to be implemented
@@ -33,12 +33,13 @@
 | Phase | Status | Start Date | End Date |
 |-------|--------|------------|----------|
 | Phase 0: Initialization | Completed | Current Date | Current Date |
-| Phase 1: Analysis | In Progress | Current Date | - |
-| Phase 2: Specification | Pending | - | - |
+| Phase 1: Analysis | Completed | Current Date | Current Date |
+| Phase 2: Specification | In Progress | Current Date | - |
 | Phase 3: Implementation | Pending | - | - |
 
 ## Next Steps
-1. Complete Analysis Phase documentation
-2. Seek approval to move to Specification Phase
-3. Define test specifications and interfaces
-4. Implement the to-do list application with tests
+1. Complete Specification Phase documentation ✓
+2. Seek approval to move to Implementation Phase
+3. Implement tests for the to-do list application
+4. Implement the to-do list functionality
+5. Verify all tests pass
