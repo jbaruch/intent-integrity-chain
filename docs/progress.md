@@ -21,11 +21,13 @@
 ### Phase 2: Specification (Current Phase)
 - Test specifications written in Gherkin format
 - Interface contracts defined
+- Application showcase script requirements and specifications added
 - Awaiting approval to proceed to Implementation Phase
 
 ### Phase 3: Implementation (Pending)
 - Tests to be implemented
 - Code to be written
+- Application showcase script to be implemented
 - Behavior to be verified
 
 ## Timeline
@@ -39,7 +41,9 @@
 
 ## Next Steps
 1. Complete Specification Phase documentation ✓
-2. Seek approval to move to Implementation Phase
-3. Implement tests for the to-do list application
-4. Implement the to-do list functionality
-5. Verify all tests pass
+2. Add application showcase script requirements and specifications ✓
+3. Seek approval to move to Implementation Phase
+4. Implement tests for the to-do list application
+5. Implement the to-do list functionality
+6. Implement the application showcase script
+7. Verify all tests pass

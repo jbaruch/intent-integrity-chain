@@ -77,3 +77,25 @@
 - **Scenario**: Add tasks with special characters and symbols
 - **Expected**: Tasks are successfully added with special characters preserved
 - **Verification**: List contains the tasks with all special characters intact
+
+## 5. Application Showcase Tests
+
+### 5.1 Demonstration Script Execution
+- **Scenario**: Execute the demonstration script
+- **Expected**: Script runs without errors and demonstrates all core functionality
+- **Verification**: All operations in the script complete successfully
+
+### 5.2 Successful Operations Demonstration
+- **Scenario**: Showcase successful task addition, removal, and listing
+- **Expected**: Script demonstrates the successful flow of operations
+- **Verification**: Output clearly shows tasks being added, removed, and listed correctly
+
+### 5.3 Error Handling Demonstration
+- **Scenario**: Showcase error handling for invalid operations
+- **Expected**: Script demonstrates how the application handles errors
+- **Verification**: Output clearly shows appropriate error messages for invalid operations
+
+### 5.4 Complete Functionality Coverage
+- **Scenario**: Verify that the script covers all core functionality
+- **Expected**: All key features of the application are demonstrated
+- **Verification**: Script includes examples of all public API methods

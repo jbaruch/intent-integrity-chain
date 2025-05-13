@@ -22,26 +22,33 @@
    - The system shall return an empty list when no tasks exist
    - The system shall return an immutable list to prevent external modification
 
+### 2. Application Showcase
+2.1. **Demonstration Script**
+   - The system shall include a script that demonstrates the functionality of the to-do list application
+   - The script shall showcase adding tasks, removing tasks, and listing tasks
+   - The script shall demonstrate both successful operations and error handling
+   - The script shall provide clear output to illustrate the application's behavior
+
 ## Non-Functional Requirements
 
-### 2. Performance
-2.1. **Response Time**
+### 1. Performance
+1.1. **Response Time**
    - All operations shall complete in constant or linear time relative to the number of tasks
    - The system shall be optimized for typical to-do list sizes (dozens to hundreds of items)
 
-### 3. Reliability
-3.1. **Error Handling**
+### 2. Reliability
+2.1. **Error Handling**
    - The system shall provide clear error messages for invalid operations
    - The system shall maintain a consistent state even after failed operations
 
-### 4. Usability
-4.1. **API Design**
+### 3. Usability
+3.1. **API Design**
    - The API shall be intuitive and easy to use
    - Method names shall clearly indicate their purpose
    - The API shall be consistent in its behavior and return types
 
-### 5. Constraints
-5.1. **Implementation Constraints**
+### 4. Constraints
+4.1. **Implementation Constraints**
    - The system shall be implemented in Kotlin
    - The system shall use only in-memory storage
    - The system shall not use external frameworks or libraries beyond the Kotlin standard library
@@ -56,3 +63,4 @@
 5. All operations maintain the integrity of the to-do list
 6. The application uses only in-memory storage
 7. The application is implemented using only Kotlin standard library
+8. A demonstration script showcases the application's functionality
