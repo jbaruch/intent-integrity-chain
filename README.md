@@ -2,6 +2,8 @@
 
 By Baruch Sadogursky and Leonid Igolnik
 
+  [Catch up on the presentation slides, video and all the resources!](https://speaking.jbaru.ch/DVCzoZ/back-to-the-future-of-software-how-to-survive-ai-with-intent-integrity-chain)
+
 ---
 
 ### **Chapter 1 – From Panic to Pattern**
