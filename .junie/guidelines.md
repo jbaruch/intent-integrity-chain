@@ -12,6 +12,11 @@
     - Apply test-first development rigorously
     - Follow clean code principles consistently
     - Create maintainable, well-documented code
+    - Ensure comprehensive test coverage:
+        + Every feature specification must have corresponding tests
+        + Every code path must be tested
+        + Edge cases must be explicitly tested
+        + Error conditions must be verified
 
 * Process Discipline:
     - Follow rules with precision
@@ -103,23 +108,54 @@
     - USER approval required
     - NO phase mixing
 
-### 3. Implementation Phase
+### 3. Test Generation Phase
 * Tasks:
-    - Implement tests
-    - Write code
+    - Generate test skeletons from specifications
+    - Implement test assertions based on Gherkin scenarios
+    - Verify test-to-spec traceability
+* Create:
+    - test/impl/**/* (test implementations only)
+* Process:
+    - MUST generate tests directly from Gherkin feature files
+    - MUST implement all scenarios from feature files
+    - MUST maintain clear mapping between tests and specs
+    - MUST ensure comprehensive test coverage:
+        + Every scenario in feature files must have at least one test
+        + All edge cases specified in scenarios must have dedicated tests
+        + All error conditions must have explicit verification
+    - NO implementation code yet
+* Protected (CRITICAL):
+    - src/**/* (NO CHANGES)
+    - test/spec/**/* (NO CHANGES)
+    - Violation = Phase Reset
+* Gate (MUST STOP):
+    - All tests implemented (but failing)
+    - 100% spec-to-test coverage verified
+    - USER approval required
+    - NO phase mixing
+
+### 4. Implementation Phase
+* Tasks:
+    - Write code to make tests pass
+    - Refactor while maintaining test coverage
     - Verify behavior
 * Create/Update:
     - src/**/*
-    - test/impl/**/*
     - docs/active_context.md
     - docs/progress.md
+* Process:
+    - MUST write minimal code to make tests pass
+    - MUST run tests continuously
+    - MUST NOT modify tests to fit implementation
+    - Implementation MUST follow tests, never the reverse
 * Protected (CRITICAL):
     - test/spec/**/* (NEVER MODIFY)
+    - test/impl/**/* (NO STRUCTURAL CHANGES)
     - docs/* (except active_context.md, progress.md)
     - Violation = Phase Reset
 * Gate (MUST STOP):
-    - Tasks complete
-    - Tests passing
+    - All tests passing
+    - No test modifications to accommodate implementation
     - USER approval required
     - NO phase mixing
 
