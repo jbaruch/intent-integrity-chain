@@ -1,5 +1,7 @@
 ## **Intent Integrity: Aligning Intent, Expertise, and AI**
 
+By Baruch Sadogursky and Leonid Igolnik
+
 ---
 
 ### **Chapter 1 – From Panic to Pattern**
