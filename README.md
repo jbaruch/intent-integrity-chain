@@ -2,13 +2,13 @@
 
 The Intent Integrity Chain whitepaper is now maintained at:
 
-## 👉 **[intent-integrity-chain/whitepaper](https://github.com/intent-integrity-chain/whitepaper)**
+## 👉 **[intent-integrity-chain/whitepaper](https://github.com/intent-integrity-chain)**
 
 ---
 
 ### Quick Links
 
-- **Whitepaper**: [intent-integrity-chain/whitepaper](https://github.com/intent-integrity-chain/whitepaper)
+- **Whitepaper**: [intent-integrity-chain/whitepaper](https://github.com/intent-integrity-chain)
 - **Implementation (IIKit)**: [intent-integrity-chain/kit](https://github.com/intent-integrity-chain/kit)
 - **Install**: `tessl install tessl-labs/intent-integrity-kit`
 
